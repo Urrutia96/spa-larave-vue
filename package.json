@@ -24,7 +24,12 @@
         "vue-template-compiler": "^2.6.8"
     },
     "dependencies": {
+        "highlight.js": "^9.15.6",
+        "marked": "^0.6.1",
+        "vue-markdown-highlight": "^1.0.5",
         "vue-router": "^3.0.2",
+        "vue-simplemde": "^0.5.1",
+        "vue-sweetalert2": "^1.6.4",
         "vuetify": "^1.5.4"
     }
 }

@@ -11,10 +11,19 @@ window.Vue = require('vue');
 import 'vuetify/dist/vuetify.min.css'
 import Vuetify from 'vuetify';
 import VueRouter from 'vue-router';
+import Highlight from 'vue-markdown-highlight';
+import VueSweetalert2 from 'vue-sweetalert2';
 import router from './router/index';
 
 Vue.use(Vuetify);
 Vue.use(VueRouter);
+Vue.use(Highlight);
+const options = {
+    confirmButtonColor: '#41b882',
+    cancelButtonColor: '#ff7674'
+  }
+   
+Vue.use(VueSweetalert2, options);
 /**
  * The following block of code may be used to automatically register your
  * Vue components. It will recursively scan this directory for the Vue
