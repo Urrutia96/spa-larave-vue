@@ -1,39 +1,59 @@
 <template>
     <v-container grid-list-lg>
-        <v-layout row wrap>
-            <v-flex xs10 offset-xs1>
-                <v-card mb-3>
-                    <v-card-title>
-                        <div>
-                            <h4 class="headline">Technology</h4>
-                        </div>
-                    </v-card-title>
-                    <v-card-text>
-                        <div> Dolore ex deserunt aute fugiat aute nulla ea sunt aliqua nisi cupidatat eu. Nostrud in laboris labore nisi amet do dolor eu fugiat consectetur elit cillum esse. Pariatur occaecat nisi laboris tempor laboris eiusmod qui id Lorem esse commodo in. Exercitation aute dolore deserunt culpa consequat elit labore incididunt elit anim. </div>
+        <section>
+        <v-layout
+          column
+          wrap
+          class="my-5"
+          align-center
+        >
+          <v-flex xs12>
+            <v-container grid-list-xl>
+              <v-layout row wrap align-center>
+                <v-flex xs12 md4>
+                  <v-card class="elevation-0 transparent">
+                    <v-card-text class="text-xs-center">
+                      <v-icon x-large class="blue--text text--lighten-2">build</v-icon>
                     </v-card-text>
-                    <v-divider></v-divider>
-                    <v-card-actions>
-                        <v-btn flat >Leer articúlo</v-btn>
-                    </v-card-actions>
-                </v-card>
-            </v-flex>
-            <v-flex xs10 offset-xs1>
-                <v-card mb-3>
-                    <v-card-title>
-                        <div>
-                            <h4 class="headline">Technology</h4>
-                        </div>
+                    <v-card-title primary-title class="layout justify-center">
+                      <div class="headline text-xs-center">Laravel</div>
                     </v-card-title>
-                    <v-card-text>
-                        <div> Dolore ex deserunt aute fugiat aute nulla ea sunt aliqua nisi cupidatat eu. Nostrud in laboris labore nisi amet do dolor eu fugiat consectetur elit cillum esse. Pariatur occaecat nisi laboris tempor laboris eiusmod qui id Lorem esse commodo in. Exercitation aute dolore deserunt culpa consequat elit labore incididunt elit anim. </div>
+                    <v-card-text primary-title class="text-xs-center">
+                      The PHP Framework For Web Artisans.
                     </v-card-text>
-                    <v-divider></v-divider>
-                    <v-card-actions>
-                        <v-btn flat >Leer articúlo</v-btn>
-                    </v-card-actions>
-                </v-card>
-            </v-flex>
+                  </v-card>
+                </v-flex>
+                <v-flex xs12 md4>
+                  <v-card class="elevation-0 transparent">
+                    <v-card-text class="text-xs-center">
+                      <v-icon x-large class="blue--text text--lighten-2">flash_on</v-icon>
+                    </v-card-text>
+                    <v-card-title primary-title class="layout justify-center">
+                      <div class="headline">VueJs</div>
+                    </v-card-title>
+                    <v-card-text primary-title class="text-xs-center">
+                      The Progressive JavaScript Framework
+                    </v-card-text>
+                  </v-card>
+                </v-flex>
+                <v-flex xs12 md4>
+                  <v-card class="elevation-0 transparent">
+                    <v-card-text class="text-xs-center">
+                      <v-icon x-large class="blue--text text--lighten-2">color_lens</v-icon>
+                    </v-card-text>
+                    <v-card-title primary-title class="layout justify-center">
+                      <div class="headline text-xs-center">Vuetify</div>
+                    </v-card-title>
+                    <v-card-text primary-title class="text-xs-center">
+                      Material Design Component Framework
+                    </v-card-text>
+                  </v-card>
+                </v-flex>
+              </v-layout>
+            </v-container>
+          </v-flex>
         </v-layout>
+      </section>
     </v-container>
 </template>
 

@@ -1754,43 +1754,6 @@ module.exports = {
 
 /***/ }),
 
-/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/LayoutComponent.vue?vue&type=script&lang=js&":
-/*!**************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/LayoutComponent.vue?vue&type=script&lang=js& ***!
-  \**************************************************************************************************************************************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-/* harmony default export */ __webpack_exports__["default"] = ({
-  mounted: function mounted() {
-    console.log('Component mounted.');
-  }
-});
-
-/***/ }),
-
 /***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/views/Articulo.vue?vue&type=script&lang=js&":
 /*!**************************************************************************************************************************************************************!*\
   !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/views/Articulo.vue?vue&type=script&lang=js& ***!
@@ -2016,8 +1979,6 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
-//
-//
 
 
 
@@ -2067,6 +2028,26 @@ highlight_js__WEBPACK_IMPORTED_MODULE_1___default.a.initHighlightingOnLoad();
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 //
 //
 //
@@ -46666,7 +46647,7 @@ var render = function() {
               _c(
                 "v-btn",
                 { attrs: { flat: "", to: { name: "welcome" }, exact: "" } },
-                [_vm._v("Home")]
+                [_vm._v("Inicio")]
               ),
               _vm._v(" "),
               _c("v-btn", { attrs: { flat: "", to: { name: "blog" } } }, [
@@ -46690,7 +46671,11 @@ var render = function() {
         [
           _c("v-spacer"),
           _vm._v(" "),
-          _c("div", [_vm._v("Santos ")]),
+          _c("div", [
+            _c("a", { attrs: { href: "https://github.com/Urrutia96" } }, [
+              _vm._v("Santos Urrutia")
+            ])
+          ]),
           _vm._v(" "),
           _c("div", [_vm._v("© " + _vm._s(new Date().getFullYear()))])
         ],
@@ -46963,8 +46948,8 @@ var render = function() {
                             [
                               _c("v-text-field", {
                                 attrs: {
-                                  label: "Titulo",
-                                  placeholder: "titulo del articulo",
+                                  label: "Título",
+                                  placeholder: "Título del articulo",
                                   box: ""
                                 },
                                 model: {
@@ -47072,103 +47057,223 @@ var render = function() {
   var _vm = this
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
-  return _c(
-    "v-container",
-    { attrs: { "grid-list-lg": "" } },
-    [
-      _c(
-        "v-layout",
-        { attrs: { row: "", wrap: "" } },
-        [
-          _c(
-            "v-flex",
-            { attrs: { xs10: "", "offset-xs1": "" } },
-            [
-              _c(
-                "v-card",
-                { attrs: { "mb-3": "" } },
-                [
-                  _c("v-card-title", [
-                    _c("div", [
-                      _c("h4", { staticClass: "headline" }, [
-                        _vm._v("Technology")
-                      ])
-                    ])
-                  ]),
-                  _vm._v(" "),
-                  _c("v-card-text", [
-                    _c("div", [
-                      _vm._v(
-                        " Dolore ex deserunt aute fugiat aute nulla ea sunt aliqua nisi cupidatat eu. Nostrud in laboris labore nisi amet do dolor eu fugiat consectetur elit cillum esse. Pariatur occaecat nisi laboris tempor laboris eiusmod qui id Lorem esse commodo in. Exercitation aute dolore deserunt culpa consequat elit labore incididunt elit anim. "
-                      )
-                    ])
-                  ]),
-                  _vm._v(" "),
-                  _c("v-divider"),
-                  _vm._v(" "),
-                  _c(
-                    "v-card-actions",
-                    [
-                      _c("v-btn", { attrs: { flat: "" } }, [
-                        _vm._v("Leer articúlo")
-                      ])
-                    ],
-                    1
-                  )
-                ],
-                1
-              )
-            ],
-            1
-          ),
-          _vm._v(" "),
-          _c(
-            "v-flex",
-            { attrs: { xs10: "", "offset-xs1": "" } },
-            [
-              _c(
-                "v-card",
-                { attrs: { "mb-3": "" } },
-                [
-                  _c("v-card-title", [
-                    _c("div", [
-                      _c("h4", { staticClass: "headline" }, [
-                        _vm._v("Technology")
-                      ])
-                    ])
-                  ]),
-                  _vm._v(" "),
-                  _c("v-card-text", [
-                    _c("div", [
-                      _vm._v(
-                        " Dolore ex deserunt aute fugiat aute nulla ea sunt aliqua nisi cupidatat eu. Nostrud in laboris labore nisi amet do dolor eu fugiat consectetur elit cillum esse. Pariatur occaecat nisi laboris tempor laboris eiusmod qui id Lorem esse commodo in. Exercitation aute dolore deserunt culpa consequat elit labore incididunt elit anim. "
-                      )
-                    ])
-                  ]),
-                  _vm._v(" "),
-                  _c("v-divider"),
-                  _vm._v(" "),
-                  _c(
-                    "v-card-actions",
-                    [
-                      _c("v-btn", { attrs: { flat: "" } }, [
-                        _vm._v("Leer articúlo")
-                      ])
-                    ],
-                    1
-                  )
-                ],
-                1
-              )
-            ],
-            1
-          )
-        ],
-        1
-      )
-    ],
-    1
-  )
+  return _c("v-container", { attrs: { "grid-list-lg": "" } }, [
+    _c(
+      "section",
+      [
+        _c(
+          "v-layout",
+          {
+            staticClass: "my-5",
+            attrs: { column: "", wrap: "", "align-center": "" }
+          },
+          [
+            _c(
+              "v-flex",
+              { attrs: { xs12: "" } },
+              [
+                _c(
+                  "v-container",
+                  { attrs: { "grid-list-xl": "" } },
+                  [
+                    _c(
+                      "v-layout",
+                      { attrs: { row: "", wrap: "", "align-center": "" } },
+                      [
+                        _c(
+                          "v-flex",
+                          { attrs: { xs12: "", md4: "" } },
+                          [
+                            _c(
+                              "v-card",
+                              { staticClass: "elevation-0 transparent" },
+                              [
+                                _c(
+                                  "v-card-text",
+                                  { staticClass: "text-xs-center" },
+                                  [
+                                    _c(
+                                      "v-icon",
+                                      {
+                                        staticClass:
+                                          "blue--text text--lighten-2",
+                                        attrs: { "x-large": "" }
+                                      },
+                                      [_vm._v("build")]
+                                    )
+                                  ],
+                                  1
+                                ),
+                                _vm._v(" "),
+                                _c(
+                                  "v-card-title",
+                                  {
+                                    staticClass: "layout justify-center",
+                                    attrs: { "primary-title": "" }
+                                  },
+                                  [
+                                    _c(
+                                      "div",
+                                      {
+                                        staticClass: "headline text-xs-center"
+                                      },
+                                      [_vm._v("Laravel")]
+                                    )
+                                  ]
+                                ),
+                                _vm._v(" "),
+                                _c(
+                                  "v-card-text",
+                                  {
+                                    staticClass: "text-xs-center",
+                                    attrs: { "primary-title": "" }
+                                  },
+                                  [
+                                    _vm._v(
+                                      "\n                  The PHP Framework For Web Artisans.\n                "
+                                    )
+                                  ]
+                                )
+                              ],
+                              1
+                            )
+                          ],
+                          1
+                        ),
+                        _vm._v(" "),
+                        _c(
+                          "v-flex",
+                          { attrs: { xs12: "", md4: "" } },
+                          [
+                            _c(
+                              "v-card",
+                              { staticClass: "elevation-0 transparent" },
+                              [
+                                _c(
+                                  "v-card-text",
+                                  { staticClass: "text-xs-center" },
+                                  [
+                                    _c(
+                                      "v-icon",
+                                      {
+                                        staticClass:
+                                          "blue--text text--lighten-2",
+                                        attrs: { "x-large": "" }
+                                      },
+                                      [_vm._v("flash_on")]
+                                    )
+                                  ],
+                                  1
+                                ),
+                                _vm._v(" "),
+                                _c(
+                                  "v-card-title",
+                                  {
+                                    staticClass: "layout justify-center",
+                                    attrs: { "primary-title": "" }
+                                  },
+                                  [
+                                    _c("div", { staticClass: "headline" }, [
+                                      _vm._v("VueJs")
+                                    ])
+                                  ]
+                                ),
+                                _vm._v(" "),
+                                _c(
+                                  "v-card-text",
+                                  {
+                                    staticClass: "text-xs-center",
+                                    attrs: { "primary-title": "" }
+                                  },
+                                  [
+                                    _vm._v(
+                                      "\n                  The Progressive JavaScript Framework\n                "
+                                    )
+                                  ]
+                                )
+                              ],
+                              1
+                            )
+                          ],
+                          1
+                        ),
+                        _vm._v(" "),
+                        _c(
+                          "v-flex",
+                          { attrs: { xs12: "", md4: "" } },
+                          [
+                            _c(
+                              "v-card",
+                              { staticClass: "elevation-0 transparent" },
+                              [
+                                _c(
+                                  "v-card-text",
+                                  { staticClass: "text-xs-center" },
+                                  [
+                                    _c(
+                                      "v-icon",
+                                      {
+                                        staticClass:
+                                          "blue--text text--lighten-2",
+                                        attrs: { "x-large": "" }
+                                      },
+                                      [_vm._v("color_lens")]
+                                    )
+                                  ],
+                                  1
+                                ),
+                                _vm._v(" "),
+                                _c(
+                                  "v-card-title",
+                                  {
+                                    staticClass: "layout justify-center",
+                                    attrs: { "primary-title": "" }
+                                  },
+                                  [
+                                    _c(
+                                      "div",
+                                      {
+                                        staticClass: "headline text-xs-center"
+                                      },
+                                      [_vm._v("Vuetify")]
+                                    )
+                                  ]
+                                ),
+                                _vm._v(" "),
+                                _c(
+                                  "v-card-text",
+                                  {
+                                    staticClass: "text-xs-center",
+                                    attrs: { "primary-title": "" }
+                                  },
+                                  [
+                                    _vm._v(
+                                      "\n                  Material Design Component Framework\n                "
+                                    )
+                                  ]
+                                )
+                              ],
+                              1
+                            )
+                          ],
+                          1
+                        )
+                      ],
+                      1
+                    )
+                  ],
+                  1
+                )
+              ],
+              1
+            )
+          ],
+          1
+        )
+      ],
+      1
+    )
+  ])
 }
 var staticRenderFns = []
 render._withStripped = true
@@ -89507,17 +89612,15 @@ if (token) {
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _LayoutComponent_vue_vue_type_template_id_477ce850___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./LayoutComponent.vue?vue&type=template&id=477ce850& */ "./resources/js/components/LayoutComponent.vue?vue&type=template&id=477ce850&");
-/* harmony import */ var _LayoutComponent_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./LayoutComponent.vue?vue&type=script&lang=js& */ "./resources/js/components/LayoutComponent.vue?vue&type=script&lang=js&");
-/* empty/unused harmony star reexport *//* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+/* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
 
-
-
+var script = {}
 
 
 /* normalize component */
 
-var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__["default"])(
-  _LayoutComponent_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
+var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_1__["default"])(
+  script,
   _LayoutComponent_vue_vue_type_template_id_477ce850___WEBPACK_IMPORTED_MODULE_0__["render"],
   _LayoutComponent_vue_vue_type_template_id_477ce850___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
   false,
@@ -89531,20 +89634,6 @@ var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_
 if (false) { var api; }
 component.options.__file = "resources/js/components/LayoutComponent.vue"
 /* harmony default export */ __webpack_exports__["default"] = (component.exports);
-
-/***/ }),
-
-/***/ "./resources/js/components/LayoutComponent.vue?vue&type=script&lang=js&":
-/*!******************************************************************************!*\
-  !*** ./resources/js/components/LayoutComponent.vue?vue&type=script&lang=js& ***!
-  \******************************************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_LayoutComponent_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/babel-loader/lib??ref--4-0!../../../node_modules/vue-loader/lib??vue-loader-options!./LayoutComponent.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/LayoutComponent.vue?vue&type=script&lang=js&");
-/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_LayoutComponent_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
 
 /***/ }),
 

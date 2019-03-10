@@ -10,28 +10,26 @@
                         </div>
                     </v-card-title>
                     <v-card-text>
-                        
-                            <v-flex>
-                                <v-text-field
-                                    label="Titulo"
-                                    placeholder="titulo del articulo"
-                                    box 
-                                    v-model="titulo"
-                                ></v-text-field>
-                            </v-flex>
-                            <v-flex>
-                                <v-textarea
-                                box
-                                name="input-7-4"
-                                label="Descripcion del articulo"
-                                placeholder="Descripcion que se mostrara en /blog"
-                                v-model="descripcion"
-                                ></v-textarea>
-                            </v-flex>
-                            <v-flex >
-                                <markdown-editor v-model="cuerpo" ref="markdownEditor" :highlight="true"></markdown-editor>
-                            </v-flex>
-                        
+                        <v-flex>
+                            <v-text-field
+                                label="Título"
+                                placeholder="Título del articulo"
+                                box 
+                                v-model="titulo"
+                            ></v-text-field>
+                        </v-flex>
+                        <v-flex>
+                            <v-textarea
+                            box
+                            name="input-7-4"
+                            label="Descripcion del articulo"
+                            placeholder="Descripcion que se mostrara en /blog"
+                            v-model="descripcion"
+                            ></v-textarea>
+                        </v-flex>
+                        <v-flex >
+                            <markdown-editor v-model="cuerpo" ref="markdownEditor" :highlight="true"></markdown-editor>
+                        </v-flex>
                     </v-card-text>
                     <v-divider></v-divider>
                     <v-card-actions>
